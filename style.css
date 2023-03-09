@@ -16,8 +16,12 @@ body{
     height: 80vmin;
     display: grid;
     grid-template-rows: repeat(21, auto);
-    grid-template-columns: repeat();
+    grid-template-columns: repeat(21, auto);
 }
 .snake{
     background-color: #6fc355;
+}
+
+.food{
+    background-color: #d84242;
 }
